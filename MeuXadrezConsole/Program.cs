@@ -11,7 +11,7 @@ namespace MeuXadrezConsole
 
             Tabuleiro tab = new Tabuleiro(8, 8);
 
-         
+            Tela.ImprimeTabuleiro(tab);
 
             Console.ReadLine();
         }
